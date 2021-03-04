@@ -1,2 +1,2 @@
-# Exerc-cios-BootStrap
+# Exercícios-BootStrap
 Aprendendo conceitos sobre Bootstrap
