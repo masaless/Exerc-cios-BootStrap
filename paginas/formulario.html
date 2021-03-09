@@ -34,3 +34,59 @@
 
 
 <!-- Formulário -->
+
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="mb-0">
+            Exemplo de Formulário
+        </h5>
+    </div>
+    <div class="card-body">
+        <form action="" class="container-fluid">
+            <div class="form-row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="INFORME O SEU NOME" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="INFORME O EMAIL" required>
+                    </div>
+                    <small class="form-text text-muted">
+                        Enviaremos um e-mail para confirmar o cadastro.
+                    </small>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="linguagemPreferida">Linguagem</label>
+                        <select class="form-control" id="linguagemPreferida" required>
+                            <option value="">Selecione</option>
+                            <option>JS</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                            <option>Ruby</option>
+                            <option>Outra</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="form-row mb-0">
+                <div class="col-12">
+                    <button class="btn btn-success" type="submit">Salvar</button>
+                    <button class="btn btn-danger" type="reset">Cancelar</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
